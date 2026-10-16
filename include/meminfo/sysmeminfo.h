@@ -70,11 +70,11 @@ class SysMemInfo final {
             SysMemInfo::kMemCached,     SysMemInfo::kMemShmem,        SysMemInfo::kMemSlab,
             SysMemInfo::kMemSReclaim,   SysMemInfo::kMemSUnreclaim,   SysMemInfo::kMemSwapTotal,
             SysMemInfo::kMemSwapFree,   SysMemInfo::kMemMapped,       SysMemInfo::kMemVmallocUsed,
-            SysMemInfo::kMemPageTables, SysMemInfo::kMemSecPageTables, SysMemInfo::kMemKernelStack,  
-            SysMemInfo::kMemKReclaimable, SysMemInfo::kMemActive,     SysMemInfo::kMemInactive,
-            SysMemInfo::kMemUnevictable, SysMemInfo::kMemAvailable,  SysMemInfo::kMemActiveAnon,
-            SysMemInfo::kMemInactiveAnon, SysMemInfo::kMemActiveFile, SysMemInfo::kMemInactiveFile,
-            SysMemInfo::kMemCmaTotal, SysMemInfo::kMemCmaFree,    SysMemInfo::kMemSwapCached,
+            SysMemInfo::kMemPageTables, SysMemInfo::kMemKernelStack,  SysMemInfo::kMemKReclaimable,
+            SysMemInfo::kMemActive,     SysMemInfo::kMemInactive,     SysMemInfo::kMemUnevictable,
+            SysMemInfo::kMemAvailable,  SysMemInfo::kMemActiveAnon,   SysMemInfo::kMemInactiveAnon,
+            SysMemInfo::kMemActiveFile, SysMemInfo::kMemInactiveFile, SysMemInfo::kMemCmaTotal,
+            SysMemInfo::kMemCmaFree,    SysMemInfo::kMemSwapCached,   SysMemInfo::kMemSecPageTables,
             SysMemInfo::kMemPercpu,
     };
 
